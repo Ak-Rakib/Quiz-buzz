@@ -6,7 +6,7 @@ import QuizData from '../QuizData/QuizData';
 
 const Home = () => {
     const quizData = useLoaderData().data;
-    console.log(quizData)
+    // console.log(quizData)
     return (
         <div>
         <Card>
@@ -19,12 +19,14 @@ const Home = () => {
             </Card.Body>
         </Card>
 
+        <div className='style-homepage'>
         {
             quizData.map(quiz => <QuizData
                 key={quiz.id}
                 quiz = {quiz}
             ></QuizData>)
         }
+        </div>
         </div>
     );
 };

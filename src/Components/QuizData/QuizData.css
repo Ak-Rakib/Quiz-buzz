@@ -1,5 +1,8 @@
-.container{
+.container06{
     background-color: rgb(24, 24, 24);
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin: 0 auto;
+}
+
+.gap{
+    gap: 25px;
 }
