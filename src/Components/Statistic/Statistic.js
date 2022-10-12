@@ -8,13 +8,14 @@ import {
   CartesianGrid,
   Tooltip
 } from "recharts";
+import './Statistic.css';
 
 const Statistic = () => {
     const data = useLoaderData().data;
     console.log(data)
     return (
         <div>
-            <h1 bg='warning'>Mark Analysis Chart</h1>
+            <h1 className='statistic-header'>Mark Analysis Chart</h1>
             <AreaChart
       width={400}
       height={400}

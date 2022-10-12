@@ -1,0 +1,9 @@
+.statistic-header{
+    background-color:  rgb(16, 16, 16);
+    border-radius: 4px;
+    color:rgba(255, 255, 255, 0.55);
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 10px;
+}

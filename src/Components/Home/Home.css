@@ -1,0 +1,16 @@
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(17, 16, 16);
+    color:rgba(255, 255, 255, 0.55);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.text:hover{
+    color:rgba(255, 255, 255, 0.75);
+}
+
+.home-img{
+    height: 250px;
+    filter: opacity(50);
+}
