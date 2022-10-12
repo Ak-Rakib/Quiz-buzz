@@ -26,6 +26,10 @@ function App() {
           {
             path: '/blog',
             element: <Blog></Blog>
+          },
+          {
+            path: '*',
+            element: <div>Not Found!!! 404</div>
           }
         ]
       }
