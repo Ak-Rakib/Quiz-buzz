@@ -8,7 +8,7 @@ const Statistic = () => {
     console.log(data)
     return (
         <div>
-            <h1 className='statistic-header'>Mark Analysis Chart</h1>
+            <h3 className='statistic-header'>Mark Analysis Chart</h3>
       <ResponsiveContainer width="95%" height={400}>
         <LineChart className='chart'
           width={500}

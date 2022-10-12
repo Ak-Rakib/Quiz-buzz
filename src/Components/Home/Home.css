@@ -1,7 +1,7 @@
 .text{
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(17, 16, 16);
-    color:rgba(255, 255, 255, 0.55);
+    color: white;
     padding: 10px;
     border-radius: 8px;
 }
