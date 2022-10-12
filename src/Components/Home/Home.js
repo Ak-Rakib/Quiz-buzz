@@ -1,8 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import { useLoaderData } from 'react-router-dom';
 import './Home.css';
+import QuizData from '../QuizData/QuizData';
 
 const Home = () => {
+    const quizData = useLoaderData().data;
+    console.log(quizData)
     return (
         <div>
         <Card>
@@ -14,6 +18,13 @@ const Home = () => {
             </Card.Text>
             </Card.Body>
         </Card>
+
+        {
+            quizData.map(quiz => <QuizData
+                key={quiz.id}
+                quiz = {quiz}
+            ></QuizData>)
+        }
         </div>
     );
 };

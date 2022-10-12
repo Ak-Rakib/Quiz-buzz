@@ -8,19 +8,19 @@ const Blog = () => {
             <h3 className='blog-header'>Quiz Related Information</h3>
     <Accordion className='blog-accordion' defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
+            <Accordion.Header>What is react router Purpose?</Accordion.Header>
             <Accordion.Body>
             
             </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header>what is context api?</Accordion.Header>
             <Accordion.Body>
              
             </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header>What is useref hook in react?</Accordion.Header>
             <Accordion.Body>
             
             </Accordion.Body>

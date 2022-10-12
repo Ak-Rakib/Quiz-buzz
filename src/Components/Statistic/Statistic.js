@@ -5,7 +5,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const Statistic = () => {
     const data = useLoaderData().data;
-    console.log(data)
+    // console.log(data)
     return (
         <div>
             <h3 className='statistic-header'>Mark Analysis Chart</h3>
