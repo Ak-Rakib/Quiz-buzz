@@ -8,7 +8,15 @@ function ColorSchemesExample() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>QuizBuzz</Navbar.Brand>
+          <Navbar.Brand>
+          <img
+              alt=""
+              src="/apple-touch-icon.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            QuizBuzz</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to ="/home">Home</Nav.Link>
             <Nav.Link as={Link} to ="/statistic">Statistic</Nav.Link>
