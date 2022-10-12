@@ -1,9 +1,15 @@
 .statistic-header{
     background-color:  rgb(16, 16, 16);
     border-radius: 4px;
-    color:rgba(255, 255, 255, 0.55);
+    color:white;
     width: 80%;
     margin: 0 auto;
     padding: 5px;
     margin-top: 10px;
 }
+
+.chart{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+} 
